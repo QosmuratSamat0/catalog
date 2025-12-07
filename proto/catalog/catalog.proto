@@ -1,0 +1,51 @@
+syntax = "proto3";
+
+package product;
+option go_package = "/catalog";
+
+service ProductServices {
+  rpc CreateProduct(CreateProductRequest) returns (CreateProductResponse);
+  rpc GetProduct(GetProductRequest) returns (GetProductResponse);
+  rpc SearchProducts(SearchProductsRequest) returns (SearchProductsResponse);
+}
+
+message Product {
+  int64 id = 1;
+  string name = 2;
+  string description = 3;
+  string category = 4;
+  double price = 5;
+  string created_at = 6;
+}
+
+message CreateProductRequest {
+  string name = 1;
+  string description = 2;
+  string category = 3;
+  double price = 4;
+
+}
+
+message  CreateProductResponse {
+  int64 id = 1;
+}
+
+message GetProductRequest {
+  int64 id = 1;
+}
+
+message GetProductResponse {
+  Product product = 1;
+}
+
+message SearchProductsRequest {
+  string category = 1;
+  double price_min = 2;
+  double price_max = 3;
+  string sort_by = 4; // price_asc, price_desc, date_desc
+}
+
+message SearchProductsResponse {
+  repeated Product product = 1;
+}
+
