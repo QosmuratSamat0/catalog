@@ -4,10 +4,10 @@ import (
 	"log/slog"
 	"time"
 
-	grpcapp "github.com/QosmuratSamat0/product-catalog/internal/app/grpc"
-	"github.com/QosmuratSamat0/product-catalog/internal/cache"
-	"github.com/QosmuratSamat0/product-catalog/internal/repository/postgresql"
-	"github.com/QosmuratSamat0/product-catalog/internal/services/product"
+	grpcapp "github.com/QosmuratSamat0/catalog/internal/app/grpc"
+	"github.com/QosmuratSamat0/catalog/internal/cache"
+	"github.com/QosmuratSamat0/catalog/internal/repository/postgresql"
+	"github.com/QosmuratSamat0/catalog/internal/services/product"
 )
 
 type App struct {

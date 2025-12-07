@@ -6,9 +6,9 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/QosmuratSamat0/product-catalog/internal/app"
-	"github.com/QosmuratSamat0/product-catalog/internal/config"
-	"github.com/QosmuratSamat0/product-catalog/internal/pkg/logger/handlers/slogpretty"
+	"github.com/QosmuratSamat0/catalog/internal/app"
+	"github.com/QosmuratSamat0/catalog/internal/config"
+	"github.com/QosmuratSamat0/catalog/internal/pkg/logger/handlers/slogpretty"
 )
 
 const (

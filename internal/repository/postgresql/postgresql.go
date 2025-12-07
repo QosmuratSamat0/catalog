@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/QosmuratSamat0/product-catalog/internal/domain/models"
-	"github.com/QosmuratSamat0/product-catalog/internal/repository"
+	"github.com/QosmuratSamat0/catalog/internal/domain/models"
+	"github.com/QosmuratSamat0/catalog/internal/repository"
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgconn"
 	"github.com/jackc/pgx/v5/pgxpool"

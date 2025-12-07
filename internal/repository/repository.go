@@ -3,7 +3,7 @@ package repository
 import (
 	"context"
 
-	"github.com/QosmuratSamat0/product-catalog/internal/domain/models"
+	"github.com/QosmuratSamat0/catalog/internal/domain/models"
 )
 
 type SearchFilter struct {

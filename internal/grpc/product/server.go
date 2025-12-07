@@ -4,12 +4,12 @@ import (
 	"context"
 	"time"
 
-	"github.com/QosmuratSamat0/product-catalog/internal/domain/models"
+	"github.com/QosmuratSamat0/catalog/internal/domain/models"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	catalog "github.com/QosmuratSamat0/product-catalog/proto/gen/go/catalog"
+	catalog "github.com/QosmuratSamat0/catalog/proto/gen/go/catalog"
 )
 
 const (

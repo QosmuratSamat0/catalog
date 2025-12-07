@@ -8,10 +8,10 @@ import (
 	"log/slog"
 	"time"
 
-	"github.com/QosmuratSamat0/product-catalog/internal/cache"
-	"github.com/QosmuratSamat0/product-catalog/internal/domain/models"
-	"github.com/QosmuratSamat0/product-catalog/internal/pkg/logger/sl"
-	"github.com/QosmuratSamat0/product-catalog/internal/repository"
+	"github.com/QosmuratSamat0/catalog/internal/cache"
+	"github.com/QosmuratSamat0/catalog/internal/domain/models"
+	"github.com/QosmuratSamat0/catalog/internal/pkg/logger/sl"
+	"github.com/QosmuratSamat0/catalog/internal/repository"
 )
 
 type Service struct {

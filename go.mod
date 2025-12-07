@@ -1,4 +1,4 @@
-module github.com/QosmuratSamat0/product-catalog
+module github.com/QosmuratSamat0/catalog
 
 go 1.25.0
 

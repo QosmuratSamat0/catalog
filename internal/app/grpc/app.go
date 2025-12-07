@@ -8,7 +8,7 @@ import (
 
 	"google.golang.org/grpc"
 
-	pService "github.com/QosmuratSamat0/product-catalog/internal/grpc/product"
+	pService "github.com/QosmuratSamat0/catalog/internal/grpc/product"
 )
 
 type App struct {
